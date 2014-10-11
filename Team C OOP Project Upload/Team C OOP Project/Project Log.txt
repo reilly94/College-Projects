@@ -1,0 +1,116 @@
+12/03/13 Button/Symbol design (Adobe Fireworks)
+
+> Created origional designs for the following buttons/ labels
+  > Learning Support: Application Background (LB)
+  > Learning Support: Submission Timer (BTN)
+  > Learning Support: Contact (BTN) 
+  > Learning Support: FAQ (BTN) 
+  > Learning Support: Appointments (BTN) 
+  > Learning Support: Home (BTN)
+  > Learning Support: Services (BTN)
+  > Student Services (Main Page): Computer Support (BTN)
+  > Student Services (Main Page): Disability Support (BTN)
+  > Student Services (Main Page): Learning Support (BTN)
+  > Student Services (Main Page): Application Background (LB)
+  > Student Services (Main Page): Header (LB)    
+
+
+12/03/13 GUI LAYOUT DESIGN (Netbeans)
+
+				
+> Open new java application under the project name: StudetServicesApplication
+> Create Main Class: StudentSevicesApp
+
+> New JFrame form: MainPage
+  > Resize to (400w, 500h) default size for entire application.
+  > Insert layered pane (container)
+  > Insert JLabel (container) : wrapperLB
+    > Change Icon to : MainInterfaceBackground.jpeg
+  > Insert JLabel (container) : headerLB
+    > Change Icon to : Header.jpeg 
+  > Insert JButton : learnSupBT
+    > Change Icon to : LearningSupportButton.jpeg
+  > Insert JButton: disaSupBT
+    > Change Icon to : DisabilitySupportButton.jpeg
+  > Insert JButton: compSupBT
+    > Change Icon to : ComputerSupportButton.jpeg
+
+> In Main Class: StudentSevicesApp
+  > set title
+  > create a new instance of MainPage called myMainPage
+  > set visibility to true (This now displays the pain page of the app when launched/ran
+
+
+13/03/13 GUI LAYOUT DESIGN (Netbeans)
+
+> Create new class: LearningSupportApp
+
+> Create new JFrame form: LearnSupPage
+  > Insert layered pane (container)
+  > Insert JLabel (container) : wrapperLB
+    > Change Icon to : AppBackground.jpeg
+  > Insert JButton : homeBTN
+    > Change Icon to : Home1BTN.jpeg
+  > Insert JButton : faqBTN
+    > Change Icon to : FAQBTN.jpeg
+  > Insert JButton : contactBTN
+    > Change Icon to : ContactBTN.jpeg
+  > Insert JButton : serviceBTN
+    > Change Icon to : ServicesBTN.jpeg
+  > Insert JButton : appointmentsBTN
+    > Change Icon to : AppointmentsBTN.jpeg (to be done later as VDI in a box is down until 4pm) 
+  > Insert JButton : appointmentsBTN
+    > Change Icon to : AppointmentsBTN.jpeg
+  > Insert JButton : timerBTN
+    > Change Icon to : SubmissionTimerBTN.jpeg
+  > Insert JButton : headerLB
+    > Change Icon to : LearningSupportHeader.jpeg
+
+> Add action to homeBTN
+  > create a new instance of MainPage called myMainPage
+  > set visibility to true (This now reopens the main page)
+
+
+
+> Create new JFrame form: LearnSupPage
+  > Resize to (400w, 500h
+  > Insert layered pane (container)
+  > Insert JLabel (container) : wrapperLB
+    > Change Icon to : AppBackground.jpeg
+  > Insert JLabel: headerLB
+    > Change foreground: white
+    > Change text: Submission deadline timer
+  > Insert JLabel: promptLB
+    > Change foreground: white
+  > Insert JLabel: monthLB
+    > Change foreground: white
+  > Insert JLabel: dayLB
+    > Change foreground: white
+  > Insert JLabel: hourLB
+    > Change foreground: white
+  > Insert JLabel: minLB
+    > Change foreground: white
+
+  > Insert JtextFieldl: monthTF
+  > Insert JtextFieldl: dayTF
+  > Insert JtextFieldl: hourTF
+  > Insert JtextFieldl: minuteTF
+
+  > Insert JLabel: prompt2LB
+  > Insert JLabel: time1LB
+  > Insert JLabel: prompt3LB
+  > Insert JLabel: time2LB
+  > Insert JLabel: naviBarLB
+  > Insert JButton: homeBTN
+
+
+
+
+
+
+
+
+
+
+
+
