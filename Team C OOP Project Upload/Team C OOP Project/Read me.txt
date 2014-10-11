@@ -1,0 +1,19 @@
+Team C
+
+Team Members:
+ 
+David Brady	- x12112267
+John Mc Dermott	- x12424052
+Stephen Reilly	- x12445982
+
+David Brady
+> Main GUI & app class. 
+> Learning Support section of application. 
+> Back end navigation code
+
+
+John Mc Dermott
+> Computer Support section of the application.
+
+Stephen Reilly
+> Disability Support section of the application.
